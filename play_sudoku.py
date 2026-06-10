@@ -1,3 +1,8 @@
+from generate_sudoku import generate_sudoku
+from print_board import print_board
+from solve_sudoku import is_valid, find_empty_location
+
+
 def play_sudoku():
     board = generate_sudoku()  # 스도쿠 퍼즐을 생성
     print("스도쿠 게임을 시작합니다!")
